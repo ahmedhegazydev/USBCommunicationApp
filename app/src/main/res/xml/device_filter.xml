@@ -1,0 +1,9 @@
+<resources>
+    <usb-device
+        vendor-id="1452"
+        product-id="34068" />
+
+    <!-- Accept all device VID/PID combinations -->
+<!--    <usb-device />-->
+
+</resources>

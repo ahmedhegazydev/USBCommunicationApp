@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.usb_host_api"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.usb_host_api"
@@ -56,4 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation ("me.jahnen.libaums:core:0.10.0")
 }
